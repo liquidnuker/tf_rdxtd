@@ -1,0 +1,33 @@
+// base button styles
+// ==================================================/
+%btn--transparent {
+  background-color: transparent;
+}
+
+%btn_font--sans-serif {
+  font-family: sans-serif;
+}
+
+button,
+input [type="button"],
+[type="reset"],
+[type="submit"] {
+  // see vendor/normalize.scss for other properties
+  @extend %mp--0;
+  @extend %btn_font--sans-serif;
+}
+
+.btn {
+  @extend %mp--0;
+  @extend %btn_font--sans-serif;
+  @extend %display--inline-block;
+  font-size: 100%; 
+  line-height: 1.15;  
+}
+
+// themes
+// ==================================================/
+.btn1-01 {
+  @extend %padd--4;
+  border: 1px solid #000;
+}

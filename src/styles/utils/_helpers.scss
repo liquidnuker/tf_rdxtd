@@ -1,0 +1,136 @@
+// 
+// ==================================================/
+%pos--absolute {
+  position: absolute;
+}
+
+%pos--relative {
+  position: relative;
+}
+
+%pos--fixed {
+  position: fixed;
+}
+
+// 
+// ==================================================/
+%display--block {
+  display: block;
+}
+
+%display--inline-block {
+  display: inline-block;
+}
+
+%display--inline {
+  display: inline;
+}
+
+%display--none {
+  display: none;
+}
+
+%vis--visible {
+  visibility: visible;
+}
+
+%vis--hidden {
+  visibility: hidden;
+}
+
+// 
+// ==================================================/
+%mp--0 {
+  margin: 0;
+  padding: 0;
+}
+
+%margin--4 {
+  margin: 4px;
+}
+
+%margin--6 {
+  margin: 6px;
+}
+
+%margin-top--4 {
+  margin-top: 4px;
+}
+
+%margin-bottom--4 {
+  margin-bottom: 4px;
+}
+
+%margin--auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+%padd--4 {
+  padding: 4px;
+}
+
+%padd--6 {
+  padding: 6px;
+}
+
+%padd-top--4 {
+  padding-top: 4px;
+}
+
+%padd-top--6 {
+  padding-top: 6px;
+}
+
+%padd-bottom--4 {
+  padding-bottom: 4px;
+}
+
+%padd-bottom--6 {
+  padding-bottom: 6px;
+}
+
+// 
+// ==================================================/
+%text--left {
+  text-align: left;
+}
+
+%text--right {
+  text-align: right;
+}
+
+%text--center {
+  text-align: center;
+}
+
+%font--bold {
+  font-weight: bold;
+}
+
+// 
+// ==================================================/
+%width--100p {
+  width: 100%;
+}
+
+%height--100p {
+  height: 100%;
+}
+
+// 
+// ==================================================/
+%br--4 {
+  border-radius: 4px;
+}
+
+%br--6 {
+  border-radius: 6px;
+}
+
+%img--responsive {
+  display: block;
+  width: 100%; /* optional */
+  max-width: 100%;
+  height: auto;
+}
